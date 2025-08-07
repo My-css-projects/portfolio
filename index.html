@@ -7,53 +7,110 @@
     <link rel="stylesheet" href="sytle.css">
     <!-- bootstrap cdn -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     <!-- fontawesome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg nav-bg ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Azizullah</a>
+    <a class="navbar-brand custom-brand" href="#">Azizullah</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse custom-container " id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-        <li class="nav-item me-5">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <li class="nav-item me-3">
+          <a class="nav-link lk" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item me-5">
-          <a class="nav-link" href="#">Css-projects</a>
+        <li class="nav-item me-3">
+          <a class="nav-link lk" href="#">Css-projects</a>
         </li>
-        <li class="nav-item me-5">
-          <a class="nav-link" href="#">Js-projects</a>
+        <li class="nav-item me-3">
+          <a class="nav-link lk" href="#">Js-projects</a>
         </li>
-        <li class="nav-item me-5">
-          <a class="nav-link" href="#">Services</a>
+        <li class="nav-item me-3">
+          <a class="nav-link lk" href="#">Services</a>
         </li>
-        <li class="nav-item me-5">
-          <a class="nav-link" href="#">JsLive-projects</a>
+        <li class="nav-item me-3">
+          <a class="nav-link lk" href="#">JsLive-projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
+          <a class="nav-link lk" href="#">contact</a>
         </li>
         
     </div>
   </div>
 </nav>
+
 <!-- Home -->
- <div class="card mb-3" style="max-width: 100%;">
-  <div class="row g-0">
-    <div class="col-md-6">
-      <img src="./assets/general assets/updated-july-17.jfif" class="custom-img" alt="home-img">
+<div class="home">
+  <div class="card mb-3 home" style="max-width: 100%;">
+  <div class="row g-5 align-items-center">
+
+    <!-- Left Side (Image) -->
+    <div class="col-md-4 text-center">
+      <img src="./assets/general assets/updated-july-17.jfif" class="img-fluid rounded-start custom-img" alt="home-img">
     </div>
-    <div class="col-md-6">
+
+    <!-- Right Side (Content: Intro + Socials + Contact + Buttons) -->
+    <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Hello, I am</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <!-- Intro -->
+        <h2 class="card-title">Hello, I am</h2>
+        <h1 class="card-title fw-bold">Azizullah</h1>
+        <h3 class="card-title text-primary">And I'm a Frontend Web Developer</h3>
+        <p class="card-text home-p">
+          I'm a passionate Frontend Web Developer focused on building clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript.
+          I love turning creative ideas into real digital experiences.
+        </p>
+
+        <!-- Social Media Links -->
+        <div class="social-media d-flex gap-3 mb-3">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/azizullah-b8966835a" target="_blank" title="LinkedIn">
+            <i class="fa-brands fa-square-linkedin fs-1 fi"></i>
+          </a>
+          <!-- GitHub -->
+          <a href="https://github.com/azizullahcodes" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github fs-1 "></i>
+          </a>
+          <!-- Email -->
+          <a href="mailto:azizullahcodes@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Azizullah%2C%20I%20found%20your%20portfolio%20interesting." title="Email">
+            <i class="fa-regular fa-envelope fs-1 fi"></i>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/923347257178" target="_blank" title="WhatsApp">
+            <i class="fa-brands fa-whatsapp fs-1 text-success fi"></i>
+          </a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="mb-4">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fa-regular fa-envelope me-2 text-danger fs-1"></i>
+            <span class="spn">azizullahcodes@gmail.com</span>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+            <i class="fa-brands fa-whatsapp me-2 text-success fs-1"></i>
+            <span class="spn">+92 334 7257178</span>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="d-flex flex-wrap gap-2">
+          <a href="./assets/general assets/Modern Minimalist CV Resume.pdf" class="btn btn-outline-primary rounded-pill px-4 py-2" target="_blank" download>Download CV</a>
+          <a href="mailto:azizullahcodes@gmail.com" class="btn btn-primary rounded-pill px-4 py-2">Hire Me</a>
+        </div>
       </div>
     </div>
+
   </div>
 </div>
+</div>
+<!-- Home End -->
+<!-- Home End -->
+
+
 
 <!-- Home End -->
 

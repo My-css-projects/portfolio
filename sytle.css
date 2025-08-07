@@ -1,6 +1,50 @@
 /* navbar */
+.nav-bg{background-color:#007f73;}
 .custom-container{display: flex;
 justify-content: space-between !important;}
+.custom-brand{color: white !important;
+font-size: 40px !important;
+font-weight: bold !important;}
+
+.home-p{font-size: 20px !important;}
+
+.lk{color: white !important;
+font-size: 22px !important;
+font-weight: 400 !important;}
 /* custom-img */
 .custom-img{width: 60%;
 border-radius: 50%;}
+.home{background-color:#f5f5f5;
+}
+/* social media links */
+.custom-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.spn {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.social-media a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #0d6efd;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    text-align: center;
+  }
+
+  .card-body .d-flex {
+    justify-content: center;
+  }
+}
+
+/* social media links ends */
