@@ -75,3 +75,16 @@ background: #007f73 !important;}
 /* services icon */
 .services-icon{font-size: 60px;
 color: #007f73;}
+.service-div{background:#d5fdf9 !important;}
+/* contact */
+.contact-btn{background: #007f73 !important;
+color: white !important;}
+
+/* footer */
+footer{background-color:#d5fdf9;}
+.footer-ul{display: flex;
+justify-content: center;
+align-items: center;
+gap:20px;
+padding-top: 20px;}
+.footer-ul li{list-style: none;}
