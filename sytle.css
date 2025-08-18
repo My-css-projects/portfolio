@@ -73,7 +73,7 @@ font-size: 20px;}
 background: #007f73 !important;}
 
 /* services icon */
-.services-icon{font-size: 60px;
+.services-icon{font-size: 80px;
 color: #007f73;}
 .service-div{background:#d5fdf9 !important;}
 /* contact */
@@ -88,3 +88,4 @@ align-items: center;
 gap:20px;
 padding-top: 20px;}
 .footer-ul li{list-style: none;}
+
